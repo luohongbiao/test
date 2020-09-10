@@ -4,14 +4,14 @@ spring:
       - dev
 ---
 server:
-  port: 8888
+  port: 3355
 spring:
   application:
     name: MICRO-SERVER-DEV
   profiles: dev #开发环境
 ---
 server:
-  port: 9999
+  port: 3356
 spring:
   application:
     name: MICRO-SERVER-TEST
